@@ -1,51 +1,27 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "react-native-camera-kit@",
-        "scope": null,
-        "escapedName": "react-native-camera-kit",
-        "name": "react-native-camera-kit",
-        "rawSpec": "",
-        "spec": "latest",
-        "type": "tag"
-      },
-      "/Users/Developer/Documents/Projects/nztreeapp"
-    ]
-  ],
-  "_from": "react-native-camera-kit@latest",
-  "_id": "react-native-camera-kit@6.2.4",
-  "_inCache": true,
+  "_from": "react-native-camera-kit@^6.2.4",
+  "_id": "react-native-camera-kit@6.2.6",
+  "_inBundle": false,
+  "_integrity": "sha512-WuHlwkEi7ih+evOe6DNYsHMdNCXbEBRtObLyXUmdUAjS0RyYucAssIbMoyD7Kwk/w4ELXuPJulXHNfZJk7A9JA==",
   "_location": "/react-native-camera-kit",
-  "_nodeVersion": "8.6.0",
-  "_npmOperationalInternal": {
-    "host": "s3://npm-registry-packages",
-    "tmp": "tmp/react-native-camera-kit_6.2.4_1524496956611_0.7228762039418843"
-  },
-  "_npmUser": {
-    "name": "gran33",
-    "email": "gran33@gmail.com"
-  },
-  "_npmVersion": "5.7.1",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "react-native-camera-kit@",
-    "scope": null,
-    "escapedName": "react-native-camera-kit",
+    "type": "range",
+    "registry": true,
+    "raw": "react-native-camera-kit@^6.2.4",
     "name": "react-native-camera-kit",
-    "rawSpec": "",
-    "spec": "latest",
-    "type": "tag"
+    "escapedName": "react-native-camera-kit",
+    "rawSpec": "^6.2.4",
+    "saveSpec": null,
+    "fetchSpec": "^6.2.4"
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/react-native-camera-kit/-/react-native-camera-kit-6.2.4.tgz",
-  "_shasum": "bc2b8aa271bdfe3351ce2fcaff03ee9895379282",
-  "_shrinkwrap": null,
-  "_spec": "react-native-camera-kit@",
-  "_where": "/Users/Developer/Documents/Projects/nztreeapp",
+  "_resolved": "https://registry.npmjs.org/react-native-camera-kit/-/react-native-camera-kit-6.2.6.tgz",
+  "_shasum": "d2d0b493b35b537a6b6dfe9abda74805b6f99ae9",
+  "_spec": "react-native-camera-kit@^6.2.4",
+  "_where": "/Users/Developer/Documents/nztrees/nztreeapp",
   "author": {
     "name": "Ran Greenberg",
     "email": "rang@wix.com"
@@ -53,9 +29,11 @@
   "bugs": {
     "url": "https://github.com/wix/react-native-camera-kit/issues"
   },
+  "bundleDependencies": false,
   "dependencies": {
     "lodash": "^4.14.2"
   },
+  "deprecated": false,
   "description": "Advanced native camera control with pre-defined aspect ratio, crop, etc",
   "devDependencies": {
     "babel-jest": "22.4.1",
@@ -65,65 +43,14 @@
     "react-native": "0.51.0",
     "react-test-renderer": "16.0.0"
   },
-  "directories": {},
-  "dist": {
-    "integrity": "sha512-9aWwDF81Y4+uEv4/kSHPZv1kqSf9eoQfXmFSy7ZOzL0ais2roER41No+aMm/GyVGE3pk4jtifPnCPrJ6srb4hQ==",
-    "shasum": "bc2b8aa271bdfe3351ce2fcaff03ee9895379282",
-    "tarball": "https://registry.npmjs.org/react-native-camera-kit/-/react-native-camera-kit-6.2.4.tgz",
-    "fileCount": 92,
-    "unpackedSize": 464307,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa3fo9CRA9TVsSAnZWagAAXgMP/2kT0cWEWxUE6snyrF+Z\nUC81QqF1H8f4sVEDRJnoMHKDtL3iw0bIDl4O4L2l0SM4RlQAilFQ+DisfoWo\nWIwBZSGxLp+pfQnMLatuSFJcKQD8so6odjQzbG2HZAVEtoD2ThaZWV3aJXS+\na51Aih3IMU5m/S4FAqR4nmt4YNVsSRRu2pR1WJgNMkHhyt+BkyI2000u/RBm\nsQ4V2Dfzcm5onJGOcti6sl6NjwzQWtktBNywDPQhX+3hfJVRTuT2zo3W0c5X\nUpkRnJ/+vrGZWLi8E61+qZd2xF+TeDMr4rtlwE2XhnRQQI+mlCNT546jSNo0\nWFan6kYqSul99JXXpQtlC/FUlydsuZPmCR8yDkXJIFW2hrf1a0rXT2jUZNdG\ngzWd0BLULzXtBpNY3buTc3mPrHN2Mca/xKK648hXIzzs9Joe3xVmqsAMTs9R\n1wqV703suEr+kYA5RsvFOU9F8g9wbVZe92XDKfTMQ8t6FJd6u159B6GZNKlf\ndfCwBiBcU31+kCMY6rtLosh/aosQ0qEQSBGmFjCt4EpWVO4cDJ2G9Q6mOONO\nbbx6F7RK0eH+wlsYWW33aEn94bvXUtBm8oUyM3yenIoVqOql0yTenKHGDWaA\n5tzu+AtnbiQkCqTllED05sdciznjShO9Rhf0ev+9x9Q+ZwtJeI3BlCdMx3OA\nEgdk\r\n=WFPG\r\n-----END PGP SIGNATURE-----\r\n"
-  },
-  "gitHead": "32008dc50f1b03f551fccdc2801713f9a05bda02",
   "homepage": "https://github.com/wix/react-native-camera-kit",
   "license": "MIT",
   "main": "src/index.js",
-  "maintainers": [
-    {
-      "name": "artald",
-      "email": "artald@wix.com"
-    },
-    {
-      "name": "d4vidi",
-      "email": "amit.d4vidi@gmail.com"
-    },
-    {
-      "name": "gran33",
-      "email": "gran33@gmail.com"
-    },
-    {
-      "name": "noamco",
-      "email": "noamc@wix.com"
-    },
-    {
-      "name": "rang",
-      "email": "rang@wix.com"
-    },
-    {
-      "name": "vidrak",
-      "email": "lev.vidrak@gmail.com"
-    },
-    {
-      "name": "wix.mobile",
-      "email": "oneapp@wix.com"
-    },
-    {
-      "name": "yedidyak",
-      "email": "yedidyak@gmail.com"
-    },
-    {
-      "name": "zlotindaniel",
-      "email": "zlotindaniel@gmail.com"
-    }
-  ],
   "name": "react-native-camera-kit",
   "nativePackage": true,
-  "optionalDependencies": {},
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
-  "readme": "\n# react-native-camera-kit\n\nNative camera control.\n\n![](img/crazyUnicorn.png)  ![](img/zoom.png)\n\n## Installation\n\n\n#### Install using npm or yarn:\n\n```bash\nnpm install react-native-camera-kit --save\n```\n\nOr if you're using yarn:\n\n```bash\nyarn add react-native-camera-kit\n```\n\n#### iOS\n\n- Locate the module lib folder in your node modules: `PROJECT_DIR/node_modules/react-native-camera-kit/ios/lib`\n- Drag the `ReactNativeCameraKit.xcodeproj` project file into your project\n- Add `libReactNativeCameraKit.a` to all your target **Linked Frameworks and Libraries** (prone to be forgotten)\n- Add to your project ```info.plist``` the keys ```Privacy - Camera Usage Description``` and ```Privacy - Photo Library Usage Description``` as described [here](https://developer.apple.com/library/content/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html).\n\n#### Android\n\nAdd the following to your project's `settings.gradle` file:\n\n\n```diff\n+ include ':rncamerakit'\n+ project(':rncamerakit').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-camera-kit/android/')\n```\n\nThen add to your app `app/build.gradle` in the `dependencies` section:\n\n```diff\n+ compile project(\":rncamerakit\")\n```\n\nThen in `MainApplication.java` add:\n\n```diff\n+ import com.wix.RNCameraKit.RNCameraKitPackage;\n```\n\nAnd in the package list in the same file (e.g. `getPackages`) add:\n\n```diff\n+ new RNCameraKitPackage()\n```\n\n## Running the example project\t\n\n- ```cd example```\t\n- ```yarn``` or ```npm install``` (the ```yarn```/```npm``` should be in the example folder)\t\n- ```react-native run-ios``` or ```react-native run-android``` \n\n## APIs\n\n### CameraKitCamera - Camera component \n\n```js\n<CameraKitCamera\n  ref={cam => this.camera = cam}\n  style={{\n    flex: 1,\n    backgroundColor: 'white'\n  }}\n  cameraOptions={{\n    flashMode: 'auto',             // on/off/auto(default)\n    focusMode: 'on',               // off/on(default)\n    zoomMode: 'on',                // off/on(default)\n    ratioOverlay:'1:1',            // optional, ratio overlay on the camera and crop the image seamlessly\n    ratioOverlayColor: '#00000077' // optional\n  }}\n  onReadQRCode={(event) => console.log(event.nativeEvent.qrcodeStringValue)} // optional\n  \n/>\n```\n\n### CameraKitCamera cameraOptions\n\nAttribute         | Values                 | Description\n----------------- | ---------------------- | -----------\n`flashMode`         |`'on'`/`'off'`/`'auto'` | camera flash mode (default is `auto`)\n`focusMode`         | `'on'`/`'off'`         | camera focus mode (default is `on`)\n`zoomMode`          | `'on'`/`'off'`         | camera zoom mode\n`ratioOverlay`      | `['int':'int', ...]`   | overlay on top of the camera view (crop the image to the selected size) Example: `['16:9', '1:1', '3:4']`\n`ratioOverlayColor` |  Color                 | any color with alpha (default is ```'#ffffff77'```)\n\n### CameraKitCamera API\n\n#### checkDeviceCameraAuthorizationStatus\n\n```js\nconst isCameraAuthorized = await CameraKitCamera.checkDeviceCameraAuthorizationStatus();\n```\n\nreturn values:\n\n`AVAuthorizationStatusAuthorized` returns `true`\n\n`AVAuthorizationStatusNotDetermined` returns `-1`\n\notherwise, returns ```false```\n\n#### requestDeviceCameraAuthorization\n\n```js\nconst isUserAuthorizedCamera = await CameraKitCamera.requestDeviceCameraAuthorization();\n```\n\n`AVAuthorizationStatusAuthorized` returns `true`\n\notherwise, returns `false`\n\n#### capture - must have the wanted camera capture reference\n\nCapture image (`shouldSaveToCameraRoll: boolean`)\n\n```js\nconst image = await this.camera.capture(true);\n```\n\n#### setFlashMode - must have the wanted camera capture reference\n\nSet flash mode (`auto`/`on`/`off`)\n\n```js\nconst success = await this.camera.setFlashMode(newFlashData.mode);\n```\n\n#### changeCamera - must have the wanted camera capture reference\n\nChange to fornt/rear camera\n\n```js\nconst success = await this.camera.changeCamera();\n```\n \n\n### CameraKitGalleryView - Gallery grid component\n\nNative Gallery View (based on `UICollectionView`(iOS) and ` RecyclerView` (Android))\n\n![](img/camerakitgalleryview.png)\n\n```js\n<CameraKitGalleryView\n  ref={gallery => this.gallery = gallery}\n  style={{flex: 1, marginTop: 20}}\n  minimumInteritemSpacing={10}\n  minimumLineSpacing={10}\n  albumName={<ALBUM_NAME>}\n  columnCount={3}\n  onTapImage={event => {\n    // event.nativeEvent.selected - ALL selected images ids\n  }}\n  selectedImages={<MAINTAIN_SELECETED_IMAGES>}\n  selectedImageIcon={require('<IMAGE_FILE_PATH>'))}\n  unSelectedImageIcon={require('<IMAGE_FILE_PATH>')}\n/>\n```\n\nAttribute | Values | Description\n-------- | ----- | ------------\n`minimumInteritemSpacing`        | Float             | Minimum inner Item spacing\n`minimumLineSpacing`             | Float             | Minimum line spacing\n`imageStrokeColor`               | Color             | Image stroke color\n`imageStrokeColorWidth`          | Number > 0        | Image stroke color width \n`albumName`                      | String            | Album name to show\n`columnCount`                    | Integer           | How many clumns in one row\n`onTapImage`                     | Function          | Callback when image tapped\n`selectedImages`                 | Array             | Selected images (will show the selected badge)\n`selectedImageIcon`              | `require(_PATH_)` | - _DEPRECATED_ use Selection - Selected image badge image\n`unSelectedImageIcon`            | `require(_PATH_)` | - _DEPRECATED_ use Selection - Unselected image badge image\n`selection`                      | Object            | See [Selection section](#selection)\n`getUrlOnTapImage`               | Boolean           | iOS only - On image tap return the image internal  (tmp folder) uri (intead of `Photos.framework` asset id)\n`customButtonStyle`              | Object            | See [Custom Button](#custom-button) section\n`onCustomButtonPress`            | Function          | Callback when custom button tapped\n`contentInset` (iOS)             | Object            | The amount by which the gellery view content is inset from its edges (similar to `ScrollView` contentInset)\n`remoteDownloadIndicatorType`    | String (`'spinner'` / `'progress-bar'` / `'progress-pie'`) | iOS only - see [Images stored in iCloud](#images-stored-in-iCloud)\n`remoteDownloadIndicatorColor`   | Color             | iOS only - Color of the remote download indicator to show  \n`onRemoteDownloadChanged`        | Function          | iOS only - Callback when the device curentlly download remote image stored in the iCloud.\n\n#### Custom Button\n\nAttribute | Values | Description\n-------- | ----- | ------------\n`image` | `require(_PATH_)` | Custom button image\n`backgroundColor` | Color | Custom button background color\n\n#### Selection\n\nAttribute | Values | Description\n-------- | ----- | ------------\n`selectedImage` |`require(_PATH_)`|Selected image badge image\n`unselectedImage` |`require(_PATH_)`|Unselected image badge image\n`imagePosition` |`bottom/top-right/left` / `center`|  Selected/Unselected badge image position (Default:`top-right`)\n`overlayColor` |Color| Image selected overlay color\n`imageSizeAndroid` |`large`/`medium`| Android Only - Selected badge image size\n\n#### Images stored in iCloud \nOn iOS images can be stored in iCould if the device is **low on space** which means full-resolution photos automatically replaced with optimized version and full resolution versions are stored in iCloud.\n\nIn this case, we need to download the image from iCloud and *Photos Framework* by Apple does a great job. Downloading take time and we deal with UI, so we need to show loading/progress indicator. \nIn order to do so, we provide 3 types of loading/progress inidcators:\n\nSets `remoteDownloadIndicatorType` prop (and `remoteDownloadIndicatorColor` in order to sets the Color) on CameraKitGalleryView:\n\nAttribute | Values\n-------- | :-----:\n `'spinner'`     | ![](img/spinner.png)\n `'progress-bar'`| ![](img/progressBar.png)\n `'progress-pie'`| ![](img/pie.png)\n \n >In order to simulate this loading behaviour, since reach low on storage situation is hard, add this prop `iCloudDownloadSimulateTime={TIME_IN_SECONDS}`, just **DO NOT FORGET TO REMOVE IT**.\n\n## QR Code \n```js\n<CameraKitCameraScreen\n    actions={{ rightButtonText: 'Done', leftButtonText: 'Cancel' }}\n    onBottomButtonPressed={(event) => this.onBottomButtonPressed(event)}\n    scanBarcode={true}\n    laserColor={\"blue\"}\n    frameColor={\"yellow\"}\n\n    onReadQRCode={((event) => Alert.alert(\"Qr code found\"))} //optional\n    hideControls={false}           //(default false) optional, hide buttons and additional controls on top and bottom of screen\n    showFrame={true}   //(default false) optional, show frame with transparent layer (qr code or barcode will be read on this area ONLY), start animation for scanner,that stoped when find any code. Frame always at center of the screen\n    offsetForScannerFrame = {10}   //(default 30) optional, offset from left and right side of the screen\n    heightForScannerFrame = {300}  //(default 200) optional, change height of the scanner frame\n    colorForScannerFrame = {'red'} //(default white) optional, change colot of the scanner frame\n/>\n```\n\n## Credits\n\n* [M13ProgressSuite](https://github.com/Marxon13/M13ProgressSuite) component by Marxon13 - A suite containing many tools to display progress information on iOS.\n\n## License\n\nThe MIT License.\n\nSee [LICENSE](LICENSE)\n",
-  "readmeFilename": "README.md",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wix/react-native-camera-kit.git"
@@ -132,5 +59,5 @@
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "xcode": "open example/ios/camera-kit.xcodeproj"
   },
-  "version": "6.2.4"
+  "version": "6.2.6"
 }
