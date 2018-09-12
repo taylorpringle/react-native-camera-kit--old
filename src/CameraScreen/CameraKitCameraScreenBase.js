@@ -9,7 +9,7 @@ import {
   NativeModules,
   Platform,
   SafeAreaView,
-  processColor
+  processColor  
 } from 'react-native';
 import _ from 'lodash';
 import CameraKitCamera from './../CameraKitCamera';
@@ -161,7 +161,7 @@ export default class CameraScreenBase extends Component {
               scanBarcode={this.props.scanBarcode}
               laserColor={this.props.laserColor}
               frameColor={this.props.frameColor}
-
+              surfaceColor={this.props.surfaceColor}
               onReadCode = {this.props.onReadCode}
               scannerOptions = {this.state.scannerOptions}
             />
@@ -250,11 +250,8 @@ export default class CameraScreenBase extends Component {
     if (type === 'right') {
       showButton = this.state.captureImages.length || this.isCaptureRetakeMode();
     }
-    if (type === 'left') {
-      showButton = this.state.captureImages.length || this.isCaptureRetakeMode();
-    }
     if (showButton) {
-      const buttonNameSuffix = 'ButtonText';
+      const buttonNameSuffix = this.isCaptureRetakeMode() ? 'CaptureRetakeButtonText' : 'ButtonText';
       const buttonText = _(this.props).get(`actions.${type}${buttonNameSuffix}`)
       return (
         <TouchableOpacity
@@ -272,8 +269,8 @@ export default class CameraScreenBase extends Component {
   }
 
   renderBottomButtons() {
-    return(
-      <SafeAreaView style={[styles.bottomButtons, { backgroundColor: 'transparent' }]}>
+    return !this.props.hideControls && (
+      <SafeAreaView style={[styles.bottomButtons, { backgroundColor: '#ffffff00' }]}>
         {this.renderBottomButton('left')}
         {this.renderCaptureButton()}
         {this.renderBottomButton('right')}
